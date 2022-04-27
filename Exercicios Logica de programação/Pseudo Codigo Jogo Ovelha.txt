@@ -1,0 +1,20 @@
+Inicio do jogo
+
+Ovelha entra no barco 
+Atravessa 
+Ovelha sai do barco
+atravesso
+lobo entra no barco
+atravesso 
+lobo sai do barco
+ovelha entra no barco 
+atravesso
+ovelha sai do barco 
+repolho entra no barco
+atravesso 
+repolho sai do barco 
+atravesso 
+ovelha entra no barco 
+atravesso 
+
+Fim jogo 

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Vanessa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-22 03:50:16 "/>
+        <attribute name="created" value="VmFuZXNzYTtERVNLVE9QLU5IREtJVFM7MjAyMi0wNC0yMjsiMDM6Mzg6NDUgIjszMDI5"/>
+        <attribute name="edited" value="VmFuZXNzYTtERVNLVE9QLU5IREtJVFM7MjAyMi0wNC0yMjsiMDM6NTA6MTYgIjsxOzMxMjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="media, nota1, nota2, nota3, nota4" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite suas 4 notas: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu nome &#233; : &quot; &amp; nome &amp; &quot; Sua nota &#233; : &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

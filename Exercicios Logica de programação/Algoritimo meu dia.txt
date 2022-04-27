@@ -1,0 +1,21 @@
+Inicio Dia
+
+	Acordar 
+	Tomar Banho
+	Se secar 
+	Colocar a roupa 
+	Acordar o Brayan
+	Levar o Brayan Para O banheiro
+	prepar o café da manhã
+	colocar café na mesa 
+	secar o brayan 
+	colocar a roupa no brayan 
+	tomar café 
+	levar brayan para escola 
+	pegar onibus 
+	ir para o trabalho 
+	ir para a adega 
+	ir para a casa 
+	tomar banho 
+	ir dormir 
+Fim Dia 
