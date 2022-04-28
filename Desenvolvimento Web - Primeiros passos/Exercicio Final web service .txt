@@ -1,0 +1,7 @@
+Encontrar na internet, como se dá acesso aos web-services dos Correios e do Governo para, por exemplo, buscar dados de um cep e os dados sobre estudantes do Brasil, respectivamente. 
+
+Os correios disponibiliza o manual no site https://www.correios.com.br/atendimento/ferramentas/sistemas/arquivos/web-service-de-rastreamento?msclkid=955c3699c6f411eca1e5902eb7bb0d59, 
+a) Sem certificado: http://webservice.correios.com.br/service/rastro/Rastro.wsdl
+b) Com certificado: https://webservice.correios.com.br/service/rastro/Rastro.wsdl
+
+Site do governo Não consegui encontrar 

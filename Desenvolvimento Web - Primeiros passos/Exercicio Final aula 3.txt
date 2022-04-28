@@ -1,0 +1,16 @@
+Exercicios 
+
+O Gmail costuma usar portas próprias, que não as padrões de SMTP E POP3.Tente descobrir quais são.?
+
+Os dados especificos do servidor SMTP do Gmail são:
+ 	servidor SMTP: smtp.gmail.com
+	porta de saída: 465, caso esteja usando SSL ou 587 se for TLS. 
+
+O Programador que trabalha com a internet e costuma usar banco de dados, como o MySQL, e claro servidor web, como Apache. Que tal você se adiantar e já descobrir quais são as portas usadas por estes sistemas?
+
+O MySQL utiliza a porta 3306 por padrão
+e o Apache a comunicação é feita pelo protocolo TCP/IP ou HTTP/S que são transmitidas pela porta 443.
+
+
+
+ 
