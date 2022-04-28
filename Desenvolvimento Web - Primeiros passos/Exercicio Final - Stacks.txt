@@ -1,0 +1,5 @@
+Econtrar na internet, quais são as tecnologias utilizadas em cada stack de grandes empresas (Google, Facebook, IBM, Apple, etc...)
+
+Google utiliza Angular 
+
+Facebook, Whatsapp, netflix entre outras utilizam react
