@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fundamentos align content</title>
+
+	<style type="text/css">			
+		.container{
+			height: 350px;
+			max-width: 300px;
+			border:  1px solid black;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.item{
+			background-color: orangered;
+			padding: 0 5px;
+			margin: 5px;
+			text-align: center;
+			color: white;
+			flex: 1;
+		}
+		.center{
+			align-content: center;
+		}
+		.stretch{
+			align-content: stretch;
+		}
+		.flex-start{
+			align-content: flex-start;
+		}
+		.flex-end{
+			align-content: flex-end;
+		}
+		.space-between{
+			align-content: space-between;
+		}
+		.space-around{
+			align-content: space-around;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>row</h1>
+	<p>stretch</p>
+	<div class="container stretch">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+
+	<p>center</p>
+	<div class="container center">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+
+	<p>flex-start</p>
+	<div class="container flex-start">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+
+	<p>flex end </p>
+	<div class="container flex-end">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+
+	<p>space around </p>
+	<div class="container space-around">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+
+	<p>space between </p>
+	<div class="container space-between">
+		<div class="item">Lorem ipsum dolor sit amet sit amet</div>
+		<div class="item">Lorem ipsum dolor </div>
+		<div class="item">Item 3 mais algum texto,Item 3 mais algum texto.</div>
+		<div class="item">Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto, Item 3 mais algum texto</div>
+		<div class="item">Item 3 mais algum texto</div>
+	</div>
+</body>
+</html>
